@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consulta rutas y contactos de la Cooperativa Ciudad del Coca y encuentra el Terminal Terrestre de El Coca, en Francisco de Orellana.">
+    <title>Cooperativa Ciudad del Coca | Rutas y contacto en Orellana</title>
+    <link rel="icon" href="imagenes/favicon.png" type="image/png" sizes="32x32">
+</head>
+<body>
+    <h1>Cooperativa Ciudad del Coca</h1>
+    <p>Guia escolar sobre la Cooperativa de Transporte Interprovincial Ciudad del Coca, en <strong>Francisco de Orellana</strong>. Aquí puedes consultar rutas, contactos y la ubicación del terminal.</p>
+    <!-- el dibujo es decorativo, por eso el alt está vacio. -->
+    <img src="imagenes/autobus-openmoji.webp" alt="" width="48" height="48">
+
+    <h2>Servicios</h2>
+    <ul>
+        <li>Transporte de pasajeros en bus.</li>
+        <li>Atencion para consultas sobre salidas y pasajes.</li>
+    </ul>
+
+    <figure>
+        <!-- la foto va en WebP y el JPG queda como respaldo -->
+        <picture>
+            <source srcset="imagenes/terminal-el-coca.webp" type="image/webp">
+            <img src="imagenes/terminal-el-coca.jpg" alt="Personas haciendo fila frente a las boleterías del Terminal Terrestre de El Coca." width="240" height="117">
+        </picture>
+        <figcaption>Boleterías del Terminal Terrestre de El Coca. <a href="https://x.com/MIT_Ecuador/status/1184169898043412480">Foto publicada por el Ministerio de Transporte</a>.</figcaption>
+    </figure>
+
+    <h2>Rutas</h2>
+    <table>
+        <caption>Rutas en Dayuma</caption>
+        <thead>
+            <tr>
+                <th scope="col">Origen</th>
+                <th scope="col">Destino</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">El Coca</th>
+                <td>Western</td>
+            </tr>
+            <tr>
+                <th scope="row">El Coca</th>
+                <td>Tinguino</td>
+            </tr>
+            <tr>
+                <th scope="row">Tinguino</th>
+                <td>El Coca</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Fuente: <a href="https://dayuma.gob.ec/media/dayuma/pdot_archivos/PDOT_DAYUMA2024_2031.pdf#page=189">Plan parroquial de Dayuma</a>. Confirma con la cooperativa si tu ruta está disponible y consulta el horario y el precio actual.</p>
+
+    <h2>Como planificar tu viaje</h2>
+    <ol>
+        <li>Indica tu destino y el dia en que quieres viajar.</li>
+        <li>Pregunta el precio, la hora de salida y el lugar de embarque <em>antes de salir de casa</em>.</li>
+        <li>Acercate al punto de embarque que te indiquen.</li>
+    </ol>
+
+    <h2>Video sobre la cooperativa</h2>
+    <!-- los subtitulos estan en el archivo VTT de la carpeta video -->
+    <video controls width="270" height="480" poster="imagenes/portada-video.webp" preload="metadata">
+        <source src="video/video-educativo.mp4" type="video/mp4">
+        <track src="video/subtitulos.vtt" kind="captions" srclang="es" label="Español" default>
+        Tu navegador no puede reproducir el video.
+    </video>
+
+    <h2>Aviso del terminal</h2>
+    <audio controls preload="metadata">
+        <source src="audio/audio-educativo.mp4" type="audio/mp4">
+        Tu navegador no puede reproducir el audio.
+    </audio>
+    <p><strong>Transcripción del audio.</strong> El Terminal Terrestre de El Coca brinda atención de lunes a domingo, las 24 horas del día. Sin embargo, los horarios de funcionamiento de las boleterías, el servicio de encomiendas y la salida de buses pueden variar dependiendo de cada cooperativa de transporte.</p>
+    <p>El terminal cuenta con diferentes servicios para brindar comodidad y facilitar la experiencia de los viajeros. Entre ellos están los baños públicos, zonas de comida, parqueadero, servicios de encomienda, cajeros automáticos y salas de espera. Estos espacios permiten que los pasajeros disfruten de una experiencia de viaje más cómoda, segura y organizada.</p>
+<br>
+    <h2>Terminal Terrestre de El Coca</h2>
+    <p>El terminal se encuentra en el barrio Paraiso Amazonico, en las calles <strong>6 de Diciembre y Huataraco</strong>, Francisco de Orellana.</p>
+    <!-- el mapa se carga cuando el usuario se acerca a esta seccion -->
+    <iframe src="https://www.google.com/maps?q=Terminal+Terrestre+El+Coca+Francisco+de+Orellana&amp;output=embed"
+        title="Mapa del Terminal Terrestre de El Coca, Francisco de Orellana"
+        width="288" height="220" loading="lazy">
+    </iframe>
+    <p><a href="https://www.google.com/maps/search/Terminal+Terrestre+El+Coca+Francisco+de+Orellana">Abrir la ubicación del terminal en Google Maps</a></p>
+
+    <h2>Contacto</h2>
+    <ul>
+        <li><a href="tel:+59362881334">Llamar a la matriz al (06) 288-1334</a></li>
+        <li><a href="mailto:ciudaddelcoca@yahoo.com">Escribir al correo de la matriz de El Coca</a></li>
+        <li><a href="https://wa.me/593999746315">Consultar por WhatsApp al 099 974 6315</a></li>
+    </ul>
+
+    <p>Icono de autobús de <a href="https://github.com/hfg-gmuend/openmoji">OpenMoji</a>, reducido de tamaño. <a href="https://creativecommons.org/licenses/by-sa/4.0/">Licencia CC BY-SA 4.0</a>.</p>
+</body>
+</html>
